@@ -1,0 +1,101 @@
+    body {
+        background-color: #0d0d0d;
+        /* Force dark background */
+        color: white;
+        padding-top: 50px;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .section-title h1 {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .section-title h1 u {
+        text-decoration-color: #8abd00;
+        /* Accent color underline */
+        text-underline-offset: 8px;
+    }
+
+    .project-card-custom {
+        background-color: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 20px;
+        padding: 25px;
+        height: 100%;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project-card-custom:hover {
+        transform: translateY(-5px);
+        border-color: #8abd00;
+    }
+
+    .project-tag {
+        background: rgba(138, 189, 0, 0.1);
+        color: #8abd00;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .project-card-custom h3 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .project-card-custom p {
+        color: #ccc;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .btn-view {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        transition: color 0.2s;
+        margin-top: auto;
+    }
+
+    .btn-view:hover {
+        color: #8abd00;
+    }
+
+    .back-btn-container {
+        margin-bottom: 30px;
+    }
+
+    .back-btn {
+        display: inline-block;
+        background-color: var(--accent-color);
+        color: white;
+        padding: 12px 24px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.2s;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    .back-btn:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--accent-color);
+    }
