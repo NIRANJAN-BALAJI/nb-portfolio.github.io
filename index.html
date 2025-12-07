@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan Balaji J | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js" defer></script>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) { return false; }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bento-container">
+        <div class="card profile-card" style="grid-area: profile;">
+            <div class="profile-content-left">
+                <div class="profile-branding">
+                    <div class="avatar-placeholder">NB</div>
+                    <h1>Niranjan Balaji J</h1>
+                    <p class="subtitle">Aspiring "Associate Product Manager"</p>
+                </div>
+
+                <div class="profile-contact-details">
+                    <p><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India</p>
+                    <p><i class="fas fa-envelope"></i> niranjankrishna0910@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 63691 74151</p>
+                </div>
+
+                <div class="action-buttons">
+                    <a href="mailto:niranjankrishna0910@gmail.com" class="btn primary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="profile-image-right">
+                <img src="assets/img/nb.jpg" alt="Profile Placeholder">
+            </div>
+        </div>
+
+        <div class="card objective-card" style="grid-area: objective;">
+            <h3><u>About</u></h3>
+            <br>
+            <p>Technically versatile professional with experience as a <strong>PHP Developer</strong>, <strong>UI/UX
+                    Designer</strong>, and <strong>Implementation Engineer</strong>.
+                Skilled in Full Stack Web Development (PHP/Laravel), Product Design (Figma), and deploying
+                client-centric solutions.
+                Passionate about leveraging this cross-functional expertise in Engineering, Design, and Strategy to
+                solve complex user problems as an <strong>Associate Product Manager</strong>.
+            </p>
+        </div>
+
+        <div class="card stat-card" style="grid-area: stat1;">
+            <h3>20% <i class="fas fa-arrow-trend-up"
+                    style="color: var(--accent-color); font-size: 0.8em; margin-left: 5px;"></i></h3>
+            <p>Enhanced User Engagement</p>
+        </div>
+        <div class="card stat-card" style="grid-area: stat2;">
+            <h3>30% <i class="fas fa-arrow-trend-down"
+                    style="color: var(--accent-color); font-size: 0.8em; margin-left: 5px;"></i></h3>
+            <p>Reduced Support Queries</p>
+        </div>
+        <div class="card stat-card" style="grid-area: stat3;">
+            <h3>100%</h3>
+            <p>Client Satisfaction</p>
+        </div>
+
+        <div class="card experience-card" style="grid-area: exp;">
+            <h3><u>Experience</u></h3>
+            <br>
+            <div class="exp-item">
+                <div class="exp-header">
+                    <h3>PHP Developer</h3>
+                    <span class="company">Moiboo</span>
+                    <span class="date" style="color: #8abd00">Oct 2024 - Present</span>
+                </div>
+                <ul>
+                    <li>Developed product solutions for Moiboo and Melbiflask.</li>
+                    <li>Designed user-interactive web pages.</li>
+                    <li>Led product updates for data-driven enhancements.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="exp-item">
+                <div class="exp-header">
+                    <h3>UI/UX Designer</h3>
+                    <span class="company">ZenHook</span>
+                    <span class="date">Jul 2024 - Sep 2024</span>
+                </div>
+                <ul>
+                    <li>Supported Through remote and help to create a websites.</li>
+                    <li>Product has been successfully launched.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="exp-item">
+                <div class="exp-header">
+                    <h3>Implementation Engineer (Support/Testing)</h3>
+                    <span class="company">Logimax</span>
+                    <span class="date">Jun 2023 - Jul 2024</span>
+                </div>
+                <ul>
+                    <li>Supported onsite deployments and client training.</li>
+                    <li>Iteratively improved solutions based on client feedback.</li>
+                    <li>Led product documentation and QA testing.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card project-card" style="grid-area: project1;">
+            <a href="projects.php" class="view-more-btn" title="View More"><i class="fas fa-plus"></i>View More</a>
+            <h3><u> Projects (Case Study) </u></h3>
+            <br>
+            <p class="tag">Travel Life Support App</p>
+            <ul>
+                <li>Designed mobile app matching user travel experiences.</li>
+                <li>Implemented personalized tracking features.</li>
+                <li>Used Figma for wireframing and user testing.</li>
+            </ul>
+        </div>
+
+        <!-- Project 2 (Future/Stats) -->
+        <div class="card project-stat-card" style="grid-area: project2;">
+            <div class="project-count">5+</div>
+            <div class="project-stat-title">PM Tools Mastered</div>
+            <div class="project-icons">
+                <span class="icon-circle accent" data-name="Strategy">
+                    <i class="fas fa-lightbulb"></i>
+                </span>
+                <span class="icon-circle" data-name="Jira">
+                    <i class="fab fa-jira"></i>
+                </span>
+                <span class="icon-circle" data-name="Trello">
+                    <i class="fab fa-trello"></i>
+                </span>
+                <span class="icon-circle" data-name="Figma">
+                    <i class="fab fa-figma"></i>
+                </span>
+                <span class="icon-circle" data-name="Analytics">
+                    <i class="fas fa-chart-bar"></i>
+                </span>
+                <span class="icon-circle" data-name="Sprints">
+                    <i class="fas fa-fire"></i>
+                </span>
+                <span class="icon-circle" data-name="Confluence">
+                    <i class="fab fa-confluence"></i>
+                </span>
+                <span class="icon-circle" data-name="Slack">
+                    <i class="fab fa-slack"></i>
+                </span>
+                <span class="icon-circle" data-name="Asana">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="18" height="18"
+                        fill="currentColor">
+                        <path
+                            d="M112 112c0-35.3-28.7-64-64-64S-16 76.7-16 112s28.7 64 64 64 64-28.7 64-64zm0 288c0-35.3-28.7-64-64-64S-16 364.7-16 400s28.7 64 64 64 64-28.7 64-64zM272 256c0-35.3-28.7-64-64-64s-64 28.7-64 64 28.7 64 64 64 64-28.7 64-64z" />
+                    </svg>
+                </span>
+            </div>
+        </div>
+
+        <div class="card skills-card" style="grid-area: skills;">
+            <h3><u>Skills</u></h3>
+            <br>
+            <div class="skill-category">
+                <h4>Product</h4>
+                <div class="tags">
+                    <span>Requirements Gathering</span>
+                    <span>Spec Writing</span>
+                    <span>User Flows</span>
+                    <span>Product Analytics</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Design (UI/UX)</h4>
+                <div class="tags">
+                    <span>Figma</span>
+                    <span>Adobe Illustrator</span>
+                    <span>Wireframing</span>
+                    <span>Prototyping</span>
+                    <span>User Empathy</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Technical & AI</h4>
+                <div class="tags">
+                    <span>Gen AI (LLMs)</span>
+                    <span>Vibe Coding (AI-Assisted Dev)</span>
+                    <span>SDLC</span>
+                    <span>PHP</span>
+                    <span>Laravel</span>
+                    <span>MySQL</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h4>Data & Operations</h4>
+                <div class="tags">
+                    <span>Data Analysis</span>
+                    <span>Data Visualization (Excel)</span>
+                    <span>Stakeholder Management</span>
+                    <span>Client Implementation</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card education-card" style="grid-area: edu;">
+            <h3><u>Education</u></h3>
+            <br>
+            <h3>Bachelor of Engineering (ECE)</h3>
+            <p>NSCET, 2018-2022</p>
+            <div class="certifications">
+                <h4>Certifications</h4>
+                <div class="tags">
+                    <span style="color: var(--accent-highlight);">UI/UX Designer (upGrad)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card social-card" style="grid-area: social;">
+            <h3><u>Connect</u></h3>
+            <br>
+            <div class="social-links">
+                <a href="https://behance.net/niranjankrishna2" target="_blank" class="social-btn behance">Behance</a>
+                <a href="#" target="_blank" class="social-btn linkedin">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="card extra-card" style="grid-area: extra;">
+            <h3><u>Interests & Languages</u></h3>
+            <br>
+            <p><strong>Languages:</strong> Tamil (Native), English (Professional)</p>
+            <p><strong>Interests:</strong> Sports, Travel, Tech Solutions</p>
+        </div>
+
+        <div class="card inquiry-card" style="grid-area: inquiry;">
+            <img src="assets/img/laptop.png" class="floating-icon laptop" alt="Laptop">
+            <img src="assets/img/notepad.png" class="floating-icon notepad" alt="Notepad">
+            <img src="assets/img/pen_coffee.png" class="floating-icon pen-coffee" alt="Pen and Coffee">
+            <img src="assets/img/headphones.png" class="floating-icon headphones" alt="Headphones">
+            <img src="assets/img/plant.png" class="floating-icon plant" alt="Plant">
+            <img src="assets/img/mouse.png" class="floating-icon mouse" alt="Mouse">
+            <img src="assets/img/tablet.png" class="floating-icon tablet" alt="Tablet">
+            <img src="assets/img/glasses.png" class="floating-icon glasses" alt="Glasses">
+            <div class="inquiry-content">
+                <div class="inquiry-icon accent-bg"><i class="fas fa-paper-plane"></i></div>
+                <h3>Have a project<br>in mind?</h3>
+                <a href="mailto:niranjankrishna0910@gmail.com" class="btn primary copy-btn">Copy Email</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
